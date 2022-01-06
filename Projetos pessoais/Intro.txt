@@ -1,0 +1,3 @@
+Espaço reservado para armazenamento de futuros projetos. 
+
+Os projetos mais simples serão armazenados aqui, enquanto os mais robustos terão o seu repositório próprio.
