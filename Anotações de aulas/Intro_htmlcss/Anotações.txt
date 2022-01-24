@@ -1,0 +1,104 @@
+Introdução a criação de websites com HTML5 e CSS3
+
+=================================================
+HTML
+
+ELEMENTO HTML
+<h1 class="titulo">Título</h1> = tag HTML com seu conteúdo dentro
+
+ESTRUTURA BÁSICA DE UM DOC HTML
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta> //informaçoes que o navegador precisa, etc
+   <title/>
+ </head>
+ <body>
+ </body>
+</html>
+
+--------------------------------------------------
+SEMÂNTICA
+
+<section> = seçao generica de conteudo
+<header> = cabeçalho da página
+<article> = conteudo relevante
+<aside> = conteudo relacionado ao conteudo principal
+<footer> = rodapé da página
+<h1>-<h6> = texto
+
+--------------------------------------------------
+TEXTO E LINKS
+
+Tags de texto
+<h1>Titulo da pagina</h1>
+<h2>Titulo da seção</h2>
+<h3>Titulo do artigo</h3>
+<p>Conteudo do artigo</p> = pode adicionar tags de imagem video, alem de texto
+
+Tags de link
+<a>Link</a>
+
+<a href="linkedin.com">Página da internet</a>
+<a href="mailto:matheus@gmail.com">Email</a> == pode ser usado para telefone, com prefixo "tel:"
+
+<a target="_blank">Abrir linkl em uma nova aba</a>
+
+---------------------------------------------------
+IMAGENS
+
+<img>
+<img src="caminho da imagem">
+<img alt="Descrição da foto">
+
+TinyPNG = site que remove informaçoes de imagens, deixando ela mais leve
+
+----------------------------------------------------
+LISTAS DE HTML
+Agrupar componentes!
+
+<ul>
+Item 1
+Item 1
+</ul>
+
+<ol>
+  <li>primeiro item</li>
+  <li>segundo item</li>
+  <li>terceiro item</li>
+</ol>
+
+====================================================
+CSS3 - Linguagem de estilo
+
+
+SELETORES
+
+a, p, h1, h3 {
+  color: blue;
+  font-size:14px;
+}
+
+-----------------------------------------------------
+ID X Classe
+
+<header id="header" class="class"></header>
+
+<header class="class"></header>
+
+.header = classe
+#header = id (so pode ser usado uma vez na página!)
+
+-----------------------------------------------------
+
+BOX MODEL
+
+margin, border, padding, content
+
+----------------------------------------------------
+PADDING E MARGIN
+
+.post {
+   padding: 15px, 10px; //eixo y e x
+   padding: 15 px, 10px, 5 px, 0 //um valor para cada lado - cima, direita, baixo e esquerdo.
+   padding: 15px; //mesmo valor para todos os lados
